@@ -4,14 +4,14 @@ import javax.xml.bind.annotation.*;
 
 
 @XmlRootElement
-@XmlAccessorType(XmlAccessType.NONE)
+//@XmlAccessorType(XmlAccessType.NONE)
 public class Student {
 
-    @XmlAttribute
+//    @XmlAttribute
     public String name;
-    @XmlAttribute
+//    @XmlAttribute
     public int age;
-    @XmlAttribute
+//    @XmlAttribute
     public String mobile;
 
     public Student() {
